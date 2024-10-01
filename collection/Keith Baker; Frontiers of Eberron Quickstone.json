@@ -1,0 +1,305 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FoEQuickstone",
+				"abbreviation": "FoEQ",
+				"full": "Frontiers of Eberron: Quickstone",
+				"authors": [
+					"Keith Baker",
+					"Imogen Gingell"
+				],
+				"convertedBy": [
+					"Typherr"
+				],
+				"version": "1.0.3",
+				"url": "https://www.dmsguild.com/product/493112/Frontiers-of-Eberron-Quickstone"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"book": [
+		{
+			"name": "Frontiers of Eberron: Quickstone",
+			"id": "FoEQuickstone",
+			"source": "FoEQuickstone",
+			"author": "FoEQuickstone",
+			"published": "2024-09-17",
+			"group": "homebrew",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/"
+			},
+			"contents": [
+				{
+					"name": "Preface"
+				},
+				{
+					"name": "Chapter 1: Life on the Edge",
+					"headers": [
+						"Using This Book",
+						"The Wild Frontier",
+						"A Frontier Campaign",
+						"Life on the Frontier",
+						"Frontier Justice",
+						"Droaam Rising"
+					]
+				},
+				{
+					"name": "Chapter 2: The Western Frontier",
+					"headers": [
+						"The Border Road",
+						"Towns of the Western Frontier",
+						"Distant Cities",
+						"Villages and Farms",
+						"Landmarks",
+						"Famous and Infamous People",
+						"Faiths of the Western Frontier"
+					]
+				},
+				{
+					"name": "Chapter 3: Quickstone",
+					"headers": [
+						"The Town on the Border",
+						"Groups and Communities",
+						"Local Businesses",
+						"Other Places of Interest",
+						"Criminal Activities"
+					]
+				},
+				{
+					"name": "Chapter 4: Frontiers Characters",
+					"headers": [
+						"Subclasses",
+						"Backgrounds",
+						"Species",
+						"Feats",
+						"New and Reprinted Spells"
+					]
+				},
+				{
+					"name": "Chapter 5: Treasures Beyond",
+					"headers": [
+						"Styles of the Western Frontier",
+						"Magic Items"
+					]
+				},
+				{
+					"name": "Chapter 6: Fearsome Foes",
+					"headers": [
+						"Breggan Blackcrown",
+						"Daelkyr",
+						"Demonglass Warriors",
+						"Dolguul",
+						"Gantii'kaas",
+						"Gargoyles",
+						"King Grayfinger",
+						"Merchant of Misthaven",
+						"Overlords",
+						"Rhesh Turakbar",
+						"Steel Horse",
+						"Stoneborn",
+						"Stone Cultists",
+						"Tribex",
+						"Nonplayer Characters"
+					]
+				},
+				{
+					"name": "Chapter 7: Heart of Stone",
+					"headers": [
+						"Running the Adventure",
+						"Summary",
+						"Part 1: The Westward Cascade",
+						"Part 2: Welcome to Quickstone",
+						"Part 3: Chthonic Collect-a-thon",
+						"Part 4: The Battle for the Seal"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "FoEQuickstone",
+			"source": "FoEQuickstone",
+			"data": [
+				{
+					"type": "section",
+					"name": "Preface",
+					"page": 5,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 1: Life on the Edge",
+					"page": 7,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 2: The Western Frontier",
+					"page": 45,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: Quickstone",
+					"page": 109,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 4: Frontiers Characters",
+					"page": 147,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 5: Treasures Beyond",
+					"page": 173,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 6: Fearsome Foes",
+					"page": 187,
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Chapter 7: Heart of Stone",
+					"page": 224,
+					"entries": []
+				}
+			]
+		}
+	],
+	"background": [
+		{
+			"name": "Dragonmarked Bravo",
+			"source": "FoEQuickstone",
+			"page": 156,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"lesser dragonmark|FoEQuickstone": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"item": "spear|xphb"
+						},
+						{
+							"item": "light crossbow|xphb"
+						},
+						{
+							"item": "bolt|xphb",
+							"quantity": 20
+						},
+						{
+							"item": "quiver|xphb"
+						},
+						{
+							"item": "traveler's clothes|xphb"
+						},
+						{
+							"item": "dragonmark signet|FoEQuickstone"
+						},
+						{
+							"item": "tool as indicated on the Dragonmarked Backgrounds table"
+						},
+						{
+							"value": 1200
+						}
+					],
+					"b": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Intelligence, Wisdom, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Lesser Dragonmark|FoEQuickstone}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics|XPHB} and {@skill Intimidation|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "As indicated on the Dragonmarked Backgrounds table"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Spear|XPHB}, {@item Light Crossbow|XPHB}, {@item Bolt|XPHB|20 Bolts}, {@item Quiver|XPHB}, {@item Traveler's Clothes|XPHB}, {@item Dragonmarked Signet|FoEQuickstone}, Tool as indicated on the Dragonmarked Backgrounds table, 12 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
