@@ -180,6 +180,7 @@
 			"name": "Dragonmarked Bravo",
 			"source": "FoEQuickstone",
 			"page": 156,
+			"edition": "one",
 			"ability": [
 				{
 					"choose": {
@@ -222,6 +223,11 @@
 				{
 					"athletics": true,
 					"intimidation": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
 				}
 			],
 			"toolProficiencies": [
@@ -298,8 +304,171 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			"hasFluff": true
+		}
+	],
+	"backgroundFluff": [
+		{
+			"name": "Dragonmarked Bravo",
+			"source": "FoEQuickstone",
+			"entries": [
+				"Your work for your house took advantage of your strength and speed. Were you a mercenary fighting in the Last War? A guardian protecting your family's assets and interests? A laborer moving crates in a warehouse? You're a dragonmarked heir and still have good standing with your family, but you find the freewheeling life of an adventurer to be more compelling than following all the rules and regulations of one of the house guilds."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Lesser Dragonmark",
+			"source": "FoEQuickstone",
+			"page": 165,
+			"category": "O",
+			"prerequisite": [
+				{
+					"note": "Member of appropriate species"
+				}
+			],
+			"entries": [
+				"You possess a Lesser Dragonmark, which is visible somewhere on your body. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Manifest Dragonmark",
+					"entries": [
+						"You manifest a dragonmark. Your choice of Mark is restricted by your species, as shown in the Least Dragonmark Benefit table. Your choice of Mark determines the skills, tools, and spells you gain, as given in the same table. When you select this feat, choose Intelligence, Wisdom, or Charisma as your spellcasting ability for the feat's cantrip(s) and spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guidance of the Mark",
+					"entries": [
+						"You add 1d4 to any ability check you make using the skills or tools associated with your Mark."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cantrip",
+					"entries": [
+						"You learn the cantrip(s) associated with your Mark. The Mark of Handling and Mark of Warding don't grant a cantrip; instead, each Mark grants three Spells of the Mark."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"Your dragonmark grants you access to the spells associated with your Mark. You always have these spells prepared, and you can cast each of them once at their lowest level without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Long Rest. To cast any of these spells at a higher level or a second time prior to finishing a Long Rest, you must expend a spell slot."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Lesser Dragonmark Benefit",
+					"page": 165,
+					"colLabels": [
+						"Mark",
+						"Species",
+						"Guidance of the Mark",
+						"Cantrip",
+						"Spells of the Mark"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text-",
+						"col- text-",
+						"col- text-",
+						"col- text-"
+					],
+					"rows": [
+						[
+							"Detection",
+							"Khoravar (Half-Elf)",
+							"Investigation, Insight",
+							"{@spell Guidance|XPHB}",
+							"{@spell Detect Poison and Disease|XPHB}, {@spell See Invisibility|XPHB}"
+						],
+						[
+							"Finding",
+							"Human, Orc, Half-Orc",
+							"Perception, Survival",
+							"{@spell True Strike|XPHB}",
+							"{@spell Locate Animals and Plants|XPHB}, {@spell Locate Object|XPHB}"
+						],
+						[
+							"Handling",
+							"Human",
+							"Animal Handling, Nature",
+							"None",
+							"{@spell Animal Friendship|XPHB}, {@spell Beast Sense|XPHB}, {@spell Speak with Animals|XPHB}"
+						],
+						[
+							"Healing",
+							"Halfling",
+							"Medicine, Herbalism",
+							"{@spell Spare the Dying|XPHB}",
+							"{@spell Cure Wounds|XPHB}, {@spell Lesser Restoration|XPHB}"
+						],
+						[
+							"Hospitality",
+							"Halfling",
+							"Persuasion, Brewer's Supplies or Cook's Utensils",
+							"{@spell Friends|XPHB}, {@spell Prestidigitation|XPHB}",
+							"{@spell Calm Emotions|XPHB}, {@spell Purify Food and Drink|XPHB}"
+						],
+						[
+							"Making",
+							"Human",
+							"Arcana, Artisan's Tools",
+							"{@spell Mending|XPHB}",
+							"{@spell Identify|XPHB}, {@spell Magic Weapon|XPHB}"
+						],
+						[
+							"Passage",
+							"Human",
+							"Acrobatics, Land Vehicles",
+							"{@spell Orien Step|FoEQuickstone}",
+							"{@spell Longstrider|XPHB}, {@spell Misty Step|XPHB}"
+						],
+						[
+							"Scribing",
+							"Gnome",
+							"History, Calligrapher's Supplies",
+							"{@spell Message|XPHB}",
+							"{@spell Comprehend Languages|XPHB}, {@spell Illusory Script|XPHB} (no Material component required)"
+						],
+						[
+							"Sentinel",
+							"Human",
+							"Insight, Perception",
+							"{@spell Blade Ward|XPHB}",
+							"{@spell Shield|XPHB}, {@spell Warding Bond|XPHB}"
+						],
+						[
+							"Shadow",
+							"Elf",
+							"Performance, Stealth",
+							"{@spell Minor Illusion|XPHB}",
+							"{@spell Darkness|XPHB}, {@spell Minor Image|XPHB}"
+						],
+						[
+							"Storm",
+							"Khoravar (Half-Elf)",
+							"Acrobatics, Navigator's Tools",
+							"{@spell Shocking Grasp|XPHB}",
+							"{@spell Fog Cloud|XPHB}, {@spell Gust of Wind|XPHB}"
+						],
+						[
+							"Warding",
+							"Dwarf",
+							"Investigation, Thieves' Tools",
+							"None",
+							"{@spell Alarm|XPHB}, {@spell Arcane Lock|XPHB}, {@spell Knock|XPHB}"
+						]
+					]
+				}
+			]
+		}
+	],
+	"featFluff": [
+		{
+			"name": "",
+			"source": "FoEQuickstone"
 		}
 	]
 }
