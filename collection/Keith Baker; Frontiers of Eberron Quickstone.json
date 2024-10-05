@@ -206,17 +206,17 @@
 										{
 											"type": "item",
 											"name": "5: Something to Gain",
-											"entries": "People are coming to the Western Frontier from both sides of the road, because opportunities abound here. The dragonmarked houses and independent merchants see boundless opportunities for commerce as Droaam expands, and smugglers are always trying to avoid the King's Assessors. Sages are discovering forgotten treasures, and Tharashk is finding new deposits of dragonshards. And there are ancient powers in the region, fiends and fey and more dangerous things, that have been waiting for centuries for a mortal to cross their path…"
+											"entry": "People are coming to the Western Frontier from both sides of the road, because opportunities abound here. The dragonmarked houses and independent merchants see boundless opportunities for commerce as Droaam expands, and smugglers are always trying to avoid the King's Assessors. Sages are discovering forgotten treasures, and Tharashk is finding new deposits of dragonshards. And there are ancient powers in the region, fiends and fey and more dangerous things, that have been waiting for centuries for a mortal to cross their path…"
 										},
 										{
 											"type": "item",
 											"name": "6: Something To Lose",
-											"entries": "What are you afraid of? A frontier story is more compelling if you have a stake in the game. It could be your reputation, your land, or your lover. You could have a tie to a town or a mine. In creating a character, think about the things you're afraid of losing."
+											"entry": "What are you afraid of? A frontier story is more compelling if you have a stake in the game. It could be your reputation, your land, or your lover. You could have a tie to a town or a mine. In creating a character, think about the things you're afraid of losing."
 										},
 										{
 											"type": "item",
 											"name": "7: Harsh and Wide",
-											"entries": "The bulk of the Western Frontier is a region known as the Barrens. It's vast and sparsely populated, adding to the sense of isolation and the potential to discover things long forgotten. The harshness of the land reflects the tone of the typical story. The desert doesn't care about your tragedy."
+											"entry": "The bulk of the Western Frontier is a region known as the Barrens. It's vast and sparsely populated, adding to the sense of isolation and the potential to discover things long forgotten. The harshness of the land reflects the tone of the typical story. The desert doesn't care about your tragedy."
 										}
 									]
 								}
