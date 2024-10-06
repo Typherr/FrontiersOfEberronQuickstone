@@ -283,7 +283,7 @@
 									"name": "Campaign Themes",
 									"page": 11,
 									"entries": [
-										"The Western Frontier draws on a host of different sources for inspiration, from Deadwood to Game of Thrones. Do you want to defend your home from brigands and robber barons? Do you want to get involved with the intrigues of Droaam's warlords, or do you just want to get rich? Consider the following ideas, and which of them you'd like to play a role in your campaign.",
+										"The Western Frontier draws on a host of different sources for inspiration, from {@i Deadwood} to {@i Game of Thrones}. Do you want to defend your home from brigands and robber barons? Do you want to get involved with the intrigues of Droaam's warlords, or do you just want to get rich? Consider the following ideas, and which of them you'd like to play a role in your campaign.",
 										{
 											"type": "list",
 											"style": "list-hang-notitle",
@@ -345,27 +345,107 @@
 									"entries": [
 										"There's a place for anyone on the Western Frontier. But here are a few ideas that work especially well in a Western Frontier campaign. Many of these work best if you are attached to a particular location—as in the Home and Hearth theme mentioned above. You could just be a Preacher… but the story can be more compelling if you are the Preacher for a small community, seeking to provide spiritual guidance to your people even as you are fighting supernatural threats or engaging in Droaamite intrigue. While these ideas are largely tied to the easterners, they can easily be adapted for Droaamites—a medusa preacher of the Cazhaak Six, a changeling magistrate serving Katra's Voice, a kobold sheriff who wears no star but who strives to protect their community.",
 										"These are just a few possibilities. Any options that aren't used as player characters can work well as NPCs. Your town will have a sheriff; if you don't take the job, you'll have to deal with the NPC that does.",
-										"The Sheriff. You're wearing a tin Star of Arrah, and you've sworn to keep the peace. Are you noble by nature? Are you seeking redemption for a troubled past? Or are you using this position for personal gain?",
-										"The Preacher. You're the spiritual guide for your community. Because of this, whatever faith you choose to follow will be the primary faith of your town or village. Are you a Vassal? A follower of the Flame? A Greensinger? If your religion is unusual or secretive—a Three Faces cult, the Seekers—you could have fought to establish this community on the frontier.",
-										"The House Agent. You're a dragonmarked heir serving the interests of your house on the Western Frontier. Do you believe that your house will improve the lives of the people of your community, or are you purely interested in profit?",
-										"The Magistrate. A counterpart to the Sheriff, more likely driven by intelligence than strength. You also seek to maintain order in your town, but you're responsible for maintaining records and administering justice. If there's a mystery in town, you need to solve it",
-										"The Innkeeper. You've got a stake in this town, and you want to see it prosper. A lot of people pass through your inn, and might have ties to any number of risky opportunities. Are you tied to House Ghallanda, or are you independent?",
-										"The Blacksmith. You're a stoic and reliable figure admired by the people of your town. Blacksmith is a good role for a Fighter or Artificer, but you could choose a different profession; you might be the town healer, or a simple tailor. You might have once been a soldier or a spy, but for now you're trying to make a simple, honest living.",
-										"The Entertainer. Whether you're a Phiarlan bard or a harpy songbird from Droaam, you bring a little joy to your town, and you're always interested in a new story. Are you as innocent as you appear to be, or do you have a hidden agenda?",
-										"The Mystic. You have ties to the divine or to druidic mysteries, but you aren't the town preacher, and you may be the only person of your faith in town. Are you following a vision? Are you seeking redemption after a crisis or faith?",
-										"The Wandslinger. You're a charismatic gambler and rake, and you're the fastest wand in the west—if you do say so yourself. You're looking to build your reputation as a duelist. Are you a noble heir running from your responsibilities? A former smuggler? Do you have debts to pay or a price on your head?",
-										"The Sage. You're fascinated by the history of this region, and might have a particular interest in the Dhakaani Empire, the daelkyr, or the Age of Demons. Is this purely academic, or are you searching for secrets of magic or artifice? You could be serving as a schoolteacher or putting your talents to work in another useful way.",
-										"The Chronicler. You're an investigative reporter for the Sharn Inquisitive or the Korranberg Chronicle, and you know there's a story out here. Are you chasing a particular subject, or just waiting for a compelling story to appear?",
-										"The Folk Hero. You're no sheriff, but you strive to help people in need… and since that bard wrote that song about you, you've become something of a celebrity. Is there a particular group you're championing— Brelish settlers, kobolds, Cyran refugees? Are you a templar of the Silver Flame, seeking supernatural evil? Or is your fame based on an inaccurate story— are you not the hero people believe you to be?",
-										"The Old Soldier. You might have served in one of the armies of the Last War. You could have been a Sentinel Marshal of House Deneith. Regardless of the details, you served and fought for decades—and now you're sick of war and searching for a little peace. You performed legendary feats in the past, but you don't talk about the Last War. Perhaps you've adopted a child or started a farm. You don't want to draw your sword again… but you just might have to.",
-										"The Hunter. You're a bounty hunter. You could be tied to House Tharashk, tracking criminals and other fugitives for gold. Or you could hunt monstrosities for the bounty on their teeth. Are you in it for the money? Do you need the thrill? Or is it something else that drives you?",
-										"The Fugitive. You can never return to the Five Nations. There's no price on your head—for the moment— but if you ever go back, your enemies will destroy you. Perhaps you're a dragonmarked excoriate, driven from your house for conducting forbidden experiments. Maybe you're a heretic, or perhaps you're the oldest heir of a noble family that wants your younger sibling to inherit the title. Do you hope to one day return to your home, or do you like the freedom of your exile?",
-										"The Orphan. You lost everything and everyone you cared about. You might be a Cyran refugee fleeing the Mourning, a kobold whose village was sacked by the Company of the Black Crown, or a settler whose family was killed by Rhesh Turakbar's reavers. Perhaps you're a Hexblood or a Kalashtar, and you don't even remember what happened to your parents; you've been struggling to survive alone, and now you may have found a new family.",
-										"The Mysterious Stranger. You're a grim figure. You could be a Tairnadal elf, masked and veiled. An Eldeen druid on a secret mission. A tiefling wandslinger from the Venomous Demesne. You don't talk about your past and never say two words when one will do. You're waiting for someone or something. But while you wait, you're happy to use your wand for a good cause.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "The Sheriff",
+													"entry": "You're wearing a tin Star of Arrah, and you've sworn to keep the peace. Are you noble by nature? Are you seeking redemption for a troubled past? Or are you using this position for personal gain?"
+												},
+												{
+													"type": "item",
+													"name": "The Preacher",
+													"entry": "You're the spiritual guide for your community. Because of this, whatever faith you choose to follow will be the primary faith of your town or village. Are you a Vassal? A follower of the Flame? A Greensinger? If your religion is unusual or secretive—a Three Faces cult, the Seekers—you could have fought to establish this community on the frontier."
+												},
+												{
+													"type": "item",
+													"name": "The House Agent",
+													"entry": "You're a dragonmarked heir serving the interests of your house on the Western Frontier. Do you believe that your house will improve the lives of the people of your community, or are you purely interested in profit?"
+												},
+												{
+													"type": "item",
+													"name": "The Magistrate",
+													"entry": "A counterpart to the Sheriff, more likely driven by intelligence than strength. You also seek to maintain order in your town, but you're responsible for maintaining records and administering justice. If there's a mystery in town, you need to solve it"
+												},
+												{
+													"type": "item",
+													"name": "The Innkeeper",
+													"entry": "You've got a stake in this town, and you want to see it prosper. A lot of people pass through your inn, and might have ties to any number of risky opportunities. Are you tied to House Ghallanda, or are you independent?"
+												},
+												{
+													"type": "item",
+													"name": "The Blacksmith",
+													"entry": "You're a stoic and reliable figure admired by the people of your town. Blacksmith is a good role for a Fighter or Artificer, but you could choose a different profession; you might be the town healer, or a simple tailor. You might have once been a soldier or a spy, but for now you're trying to make a simple, honest living."
+												},
+												{
+													"type": "item",
+													"name": "The Entertainer",
+													"entry": "Whether you're a Phiarlan bard or a harpy songbird from Droaam, you bring a little joy to your town, and you're always interested in a new story. Are you as innocent as you appear to be, or do you have a hidden agenda?"
+												},
+												{
+													"type": "item",
+													"name": "The Mystic",
+													"entry": "You have ties to the divine or to druidic mysteries, but you aren't the town preacher, and you may be the only person of your faith in town. Are you following a vision? Are you seeking redemption after a crisis or faith?"
+												},
+												{
+													"type": "item",
+													"name": "The Wandslinger",
+													"entry": "You're a charismatic gambler and rake, and you're the fastest wand in the west—if you do say so yourself. You're looking to build your reputation as a duelist. Are you a noble heir running from your responsibilities? A former smuggler? Do you have debts to pay or a price on your head?"
+												},
+												{
+													"type": "item",
+													"name": "The Sage",
+													"entry": "You're fascinated by the history of this region, and might have a particular interest in the Dhakaani Empire, the daelkyr, or the Age of Demons. Is this purely academic, or are you searching for secrets of magic or artifice? You could be serving as a schoolteacher or putting your talents to work in another useful way."
+												},
+												{
+													"type": "item",
+													"name": "The Chronicler",
+													"entry": "You're an investigative reporter for the Sharn Inquisitive or the Korranberg Chronicle, and you know there's a story out here. Are you chasing a particular subject, or just waiting for a compelling story to appear?"
+												},
+												{
+													"type": "item",
+													"name": "The Folk Hero",
+													"entry": "You're no sheriff, but you strive to help people in need… and since that bard wrote that song about you, you've become something of a celebrity. Is there a particular group you're championing— Brelish settlers, kobolds, Cyran refugees? Are you a templar of the Silver Flame, seeking supernatural evil? Or is your fame based on an inaccurate story— are you not the hero people believe you to be?"
+												},
+												{
+													"type": "item",
+													"name": "The Old Soldier",
+													"entry": "You might have served in one of the armies of the Last War. You could have been a Sentinel Marshal of House Deneith. Regardless of the details, you served and fought for decades—and now you're sick of war and searching for a little peace. You performed legendary feats in the past, but you don't talk about the Last War. Perhaps you've adopted a child or started a farm. You don't want to draw your sword again… but you just might have to."
+												},
+												{
+													"type": "item",
+													"name": "The Hunter",
+													"entry": "You're a bounty hunter. You could be tied to House Tharashk, tracking criminals and other fugitives for gold. Or you could hunt monstrosities for the bounty on their teeth. Are you in it for the money? Do you need the thrill? Or is it something else that drives you?"
+												},
+												{
+													"type": "item",
+													"name": "The Fugitive",
+													"entry": "You can never return to the Five Nations. There's no price on your head—for the moment— but if you ever go back, your enemies will destroy you. Perhaps you're a dragonmarked excoriate, driven from your house for conducting forbidden experiments. Maybe you're a heretic, or perhaps you're the oldest heir of a noble family that wants your younger sibling to inherit the title. Do you hope to one day return to your home, or do you like the freedom of your exile?"
+												},
+												{
+													"type": "item",
+													"name": "The Orphan",
+													"entry": "You lost everything and everyone you cared about. You might be a Cyran refugee fleeing the Mourning, a kobold whose village was sacked by the Company of the Black Crown, or a settler whose family was killed by Rhesh Turakbar's reavers. Perhaps you're a Hexblood or a Kalashtar, and you don't even remember what happened to your parents; you've been struggling to survive alone, and now you may have found a new family."
+												},
+												{
+													"type": "item",
+													"name": "The Mysterious Stranger",
+													"entry": "You're a grim figure. You could be a Tairnadal elf, masked and veiled. An Eldeen druid on a secret mission. A tiefling wandslinger from the Venomous Demesne. You don't talk about your past and never say two words when one will do. You're waiting for someone or something. But while you wait, you're happy to use your wand for a good cause."
+												}
+											]
+										},
 										"Choosing a role is a starting point, and usually helps suggest a character's class and background. In addition to choosing a role, players may want to answer the following questions:",
-										"How were you affected by the Last War? Did your character fight in the Last War, and if so, for which nation? If the character is a Droaamite, did they fight against Brelish forces? Regardless of whether the character fought in the war, did they lose friends, family, or property because of it?",
-										"What do you believe? This could be the character's religion. However, even if they don't have faith in the divine, they might care about a nation (helping Cyran refugees), a political cause (abolishing the Brelish monarchy), or the advancement of Droaam.",
-										"What do you want? What is their greatest desire— Wealth? Fame? A lost heirloom? A family? Revenge? What are you afraid of losing? Their reputation? Their family? Their faith? Their familiar",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												"{@b How were you affected by the Last War?} Did your character fight in the Last War, and if so, for which nation? If the character is a Droaamite, did they fight against Brelish forces? Regardless of whether the character fought in the war, did they lose friends, family, or property because of it?",
+												"{@b What do you believe?} This could be the character's religion. However, even if they don't have faith in the divine, they might care about a nation (helping Cyran refugees), a political cause (abolishing the Brelish monarchy), or the advancement of Droaam.",
+												"{@b What do you want?} What is their greatest desire— Wealth? Fame? A lost heirloom? A family? Revenge? What are you afraid of losing? Their reputation? Their family? Their faith? Their familiar"
+											]
+										},
 										"Once again, these are just a few options! After considering these questions, what are other details that come to mind?"
 									]
 								},
@@ -444,7 +524,23 @@
 											]
 										},
 										"The point of a miraculous return is that the character does die, but they are restored to life in a way that creates interesting hooks for the future of the campaign.",
-										"Scars. There can be suspense and risk even if death is taken off the table. Everyone has something to lose, and when a character is taken to 0 Hit Points, they will lose something. The severity and nature of the loss can vary based on the circumstances of the defeat. If a player is defeated in a barroom brawl, they aren't going to lose a leg—but they could take a blow to their reputation. The simplest option is a literal scar: a permanent reminder of injury and defeat. It's up to the player to decide how the character is marked, but the scar should be somewhere obvious; it's an ongoing reminder of their defeat. A more severe injury could result in the loss of all or part of a limb; remember that Eberron: Rising from the Last War has Prosthetic Limbs! But scars don't have to be physical. A character could have a traumatic reaction to the source of their defeat; going forward, they suffer Disadvantage on ability checks or attack rolls directly related to the person or creature that scarred them. The damage could be to their reputation, as word of the defeat spreads and wherever they go, people bring up the story. Finally, the defeat could trigger an unrelated loss; a business deal falls through, tragedy strikes an ally or relative, the adventurer's farm catches fire while they are away. It's not that the character nearly dying caused the fire on their farm—but tragedy comes in twos, and the adventurer's defeat is echoed elsewhere in their life.",
+										{
+											"type": "entries",
+											"entries": [
+												{
+													"type": "entries",
+													"entries": [
+														{
+															"type": "entries",
+															"name": "Scars",
+															"entries": [
+																"There can be suspense and risk even if death is taken off the table. Everyone has something to lose, and when a character is taken to 0 Hit Points, they will lose something. The severity and nature of the loss can vary based on the circumstances of the defeat. If a player is defeated in a barroom brawl, they aren't going to lose a leg—but they could take a blow to their reputation. The simplest option is a literal scar: a permanent reminder of injury and defeat. It's up to the player to decide how the character is marked, but the scar should be somewhere obvious; it's an ongoing reminder of their defeat. A more severe injury could result in the loss of all or part of a limb; remember that Eberron: Rising from the Last War has Prosthetic Limbs! But scars don't have to be physical. A character could have a traumatic reaction to the source of their defeat; going forward, they suffer Disadvantage on ability checks or attack rolls directly related to the person or creature that scarred them. The damage could be to their reputation, as word of the defeat spreads and wherever they go, people bring up the story. Finally, the defeat could trigger an unrelated loss; a business deal falls through, tragedy strikes an ally or relative, the adventurer's farm catches fire while they are away. It's not that the character nearly dying caused the fire on their farm—but tragedy comes in twos, and the adventurer's defeat is echoed elsewhere in their life."
+															]
+														}
+													]
+												}
+											]
+										},
 										"There's nothing wrong with just using the standard rules for death and dying. But talking about it is a way for both the players and the DM to establish their expectations for a campaign, setting the tone for the story to come"
 									]
 								}
@@ -456,7 +552,6 @@
 							"page": 15,
 							"entries": [
 								"The Western Frontier is a contested region caught between Breland, Droaam, and the Eldeen Reaches. Travelers and merchants from all three of these nations mingle on the Border Road and interact in villages and towns. Here are a few details about how the experience of everyday life differs from that of the Five Nations.",
-								"",
 								{
 									"type": "section",
 									"name": "East and West",
@@ -472,122 +567,276 @@
 									"entries": [
 										"Common and Goblin are the two primary languages spoken on the Western Frontier. The Dhakaani Empire established Goblin in the region, and it has long been the lingua franca of the different cultures of the Barrens. The Brelish brought Common from the east, and the Daughters of Sora Kell encourage Droaamites to learn it; they've worked with House Tharashk to establish schools in the major Droaamite cities that teach Common, as well as fostering literacy in both Common and Goblin. So knowing one of these two languages goes a long way on the frontier, and most denizens of Droaam should have Goblin in their stat block in place of Giant or Orc. However, there are a number of other languages that can be heard on the frontier. Anyone with the ability to cast a Druid spell can learn Druidic, and travelers from the Eldeen Reaches may speak in this language; Greensingers often know Sylvan as well. The Orc language has largely been lost, as shown by the fact that the major orc cultures—the Gaa'aram and Gaa'ran—are named in Goblin; however, there could be isolated communities where it is still spoken. The mages of the Venomous Demesne learn Infernal as a trade skill, and may curse in this tongue or use it to speak privately.",
 										"These languages are drawn from the standard rules of D&D. However, there are a few more languages that could exist on the Western Frontier if the DM wishes to add complexity. The issue is that these optional languages are extremely narrow and will be almost useless in most situations. Because of this, if the DM decides to use these four languages, they may wish to give them to appropriate characters as a free benefit in addition to any other languages they may know. These languages are:",
-										"High Kaluu, spoken only in the Venomous Demesne; it has its roots in Draconic, Infernal, and Riedran.",
-										"Stonegrind, the language of the gargoyles of Grimstone, which involves grinding stone surfaces together; other creatures can learn to understand it, but cannot speak it without a set of stones.",
-										"Tauric is the language of the minotaur clans of the Barrens.",
-										"Wuura'gaa is the native tongue of the worgs of the Watching Wood."
-									]
-								},
-								{
-									"type": "section",
-									"name": "Currency",
-									"page": 16,
-									"entries": [
-										""
-									]
-								},
-								{
-									"type": "section",
-									"name": "Goods, Services, and Rewards",
-									"page": 17,
-									"entries": [
-										""
-									]
-								},
-								{
-									"type": "section",
-									"name": "Everyday Magic and Everyday Monster",
-									"page": 17,
-									"entries": [
-										""
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Frontier Justice",
-							"page": 18,
-							"entries": [
-								"",
-								{
-									"type": "section",
-									"name": "Wands at High Noon: The Arcane Duel",
-									"page": 20,
-									"entries": [
-										""
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Droaam Rising",
-							"page": 24,
-							"entries": [
-								"",
-								{
-									"type": "section",
-									"name": "Cultures of Droaam",
-									"page": 25,
-									"entries": [
-										"",
 										{
-											"type": "section",
-											"name": "The Gargoyles of Grimstone",
-											"page": 25,
-											"entries": [
-												""
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												"{@b High Kaluu,} spoken only in the Venomous Demesne; it has its roots in Draconic, Infernal, and Riedran.",
+												"{@b Stonegrind,} the language of the gargoyles of Grimstone, which involves grinding stone surfaces together; other creatures can learn to understand it, but cannot speak it without a set of stones.",
+												"{@b Tauric} is the language of the minotaur clans of the Barrens.",
+												"{@b Wuura'gaa} is the native tongue of the worgs of the Watching Wood."
 											]
 										},
 										{
-											"type": "section",
-											"name": "The Gnolls of the Znir Pact",
-											"page": 28,
-											"entries": [
-												""
-											]
-										},
-										{
-											"type": "section",
-											"name": "The Harpies of the Byeshk Mountains",
-											"page": 31,
-											"entries": [
-												""
-											]
-										},
-										{
-											"type": "section",
-											"name": "The Medusas of Cazhaak Draal",
-											"page": 32,
-											"entries": [
-												""
-											]
-										},
-										{
-											"type": "section",
-											"name": "The Tieflings of the Venomous Demesne",
-											"page": 35,
-											"entries": [
-												""
-											]
-										},
-										{
-											"type": "section",
-											"name": "The Worgs of the Watching Wood",
-											"page": 38,
-											"entries": [
-												""
-											]
-										},
-										{
-											"type": "section",
-											"name": "Other Species",
-											"page": 41,
-											"entries": [
-												""
+											"type": "table",
+											"caption": "Frontier Languages",
+											"page": 16,
+											"colLabels": [
+												"Language",
+												"Speakers"
+											],
+											"colStyles": [
+												"col- text-",
+												"col- text-"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"width": 2,
+														"entry": "{@i Standard Languages}"
+													}
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Common",
+														"Easterners, House Tharashk"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Goblin",
+														"Droaamites, House Tharashk"
+													]
+												},
+												[
+													{
+														"type": "cell",
+														"width": 2,
+														"entry": "{@i Rare Languages}"
+													}
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Daelkyr (Deep Speech)",
+														"Aberrations, cultists"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Druidic",
+														"Primal spellcasters"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Gnoll",
+														"Gnolls"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Gnome",
+														"Sivis Stonespeakers, Korranberg chroniclers"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Infernal",
+														"Venemous Demesne, Warlocks"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Orc",
+														"Isolated orc tribes"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Serpentine",
+														"Medusas"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Sylvan",
+														"Fey, Greensingers"
+													]
+												},
+												[
+													{
+														"type": "cell",
+														"width": 2,
+														"entry": "{@i Optional Languages}"
+													}
+												],
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"High Kaluu",
+														"Venemous Demesne"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Stonegrind",
+														"Gargoyles of Grimstone"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Tauric",
+														"Minotaurs"
+													]
+												},
+												{
+													"type": "row",
+													"style": "row-indent-first",
+													"row": [
+														"Wuura'gaa",
+														"Worgs of the Watching Wood"
+													]
+												}
 											]
 										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Currency",
+							"page": 16,
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "section",
+							"name": "Goods, Services, and Rewards",
+							"page": 17,
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "section",
+							"name": "Everyday Magic and Everyday Monster",
+							"page": 17,
+							"entries": [
+								""
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Frontier Justice",
+					"page": 18,
+					"entries": [
+						"",
+						{
+							"type": "section",
+							"name": "Wands at High Noon: The Arcane Duel",
+							"page": 20,
+							"entries": [
+								""
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Droaam Rising",
+					"page": 24,
+					"entries": [
+						"",
+						{
+							"type": "section",
+							"name": "Cultures of Droaam",
+							"page": 25,
+							"entries": [
+								"",
+								{
+									"type": "section",
+									"name": "The Gargoyles of Grimstone",
+									"page": 25,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "The Gnolls of the Znir Pact",
+									"page": 28,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "The Harpies of the Byeshk Mountains",
+									"page": 31,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "The Medusas of Cazhaak Draal",
+									"page": 32,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "The Tieflings of the Venomous Demesne",
+									"page": 35,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "The Worgs of the Watching Wood",
+									"page": 38,
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "section",
+									"name": "Other Species",
+									"page": 41,
+									"entries": [
+										""
 									]
 								}
 							]
