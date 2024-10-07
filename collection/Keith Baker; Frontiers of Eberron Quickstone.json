@@ -1278,6 +1278,242 @@
 					"choose": {
 						"weighted": {
 							"from": [
+								"str",
+								"dex",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"lesser dragonmark|FoEQuickstone": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"item": "spear|xphb"
+						},
+						{
+							"item": "light crossbow|xphb"
+						},
+						{
+							"item": "bolt|xphb",
+							"quantity": 20
+						},
+						{
+							"item": "quiver|xphb"
+						},
+						{
+							"item": "traveler's clothes|xphb"
+						},
+						{
+							"value": 1200
+						}
+					],
+					"b": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Strength, Dexterity, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Lesser Dragonmark|FoEQuickstone}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics|XPHB} and {@skill Intimidation|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "{@i As indicated on the {@table Dragonmarked Backgrounds|FoEQuickstone} table}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Spear|XPHB}, {@item Light Crossbow|XPHB}, {@item Bolt|XPHB|20 Bolts}, {@item Quiver|XPHB}, {@item Traveler's Clothes|XPHB}, Dragonmarked Signet, Tool as indicated on the {@table Dragonmarked Backgrounds|FoEQuickstone} table, 12 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Dragonmarked Foundling",
+			"source": "FoEQuickstone",
+			"page": 156,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"lesser dragonmark|foequickstone": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"stealth": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"item": "dagger|xphb",
+							"quantity": 2
+						},
+						{
+							"item": "thieves' tools|xphb"
+						},
+						{
+							"item": "pouch|xphb",
+							"quantity": 2
+						},
+						{
+							"item": "traveler's clothes|xphb"
+						},
+						{
+							"value": 1800
+						}
+					],
+					"b": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Dexterity, Constitution, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Lesser Dragonmark|FoEQuickstone}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Insight|XPHB}, {@skill Stealth|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "{@item Thieves' Tools|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Dagger|XPHB|2 Daggers}, {@item Thieves' Tools|XPHB}, {@item Pouch|XPHB|2 Pouches}, {@item Traveler's Clothes|XPHB}, 18 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Dragonmarked Scion",
+			"source": "FoEQuickstone",
+			"page": 156,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
 								"int",
 								"wis",
 								"cha"
@@ -1313,13 +1549,8 @@
 			],
 			"skillProficiencies": [
 				{
-					"athletics": true,
-					"intimidation": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"anyStandard": 2
+					"arcana": true,
+					"persuasion": true
 				}
 			],
 			"toolProficiencies": [
@@ -1331,29 +1562,13 @@
 				{
 					"a": [
 						{
-							"item": "spear|xphb"
+							"item": "quarterstaff|xphb"
 						},
 						{
-							"item": "light crossbow|xphb"
+							"item": "fine clothes|xphb"
 						},
 						{
-							"item": "bolt|xphb",
-							"quantity": 20
-						},
-						{
-							"item": "quiver|xphb"
-						},
-						{
-							"item": "traveler's clothes|xphb"
-						},
-						{
-							"item": "dragonmark signet|FoEQuickstone"
-						},
-						{
-							"item": "tool as indicated on the Dragonmarked Backgrounds table"
-						},
-						{
-							"value": 1200
+							"value": 2400
 						}
 					],
 					"b": [
@@ -1391,7 +1606,241 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "Choose A or B: (A) {@item Spear|XPHB}, {@item Light Crossbow|XPHB}, {@item Bolt|XPHB|20 Bolts}, {@item Quiver|XPHB}, {@item Traveler's Clothes|XPHB}, {@item Dragonmarked Signet|FoEQuickstone}, Tool as indicated on the Dragonmarked Backgrounds table, 12 GP; or (B) 50 GP"
+							"entry": "Choose A or B: (A) {@item Quarterstaff|XPHB}, {@item Fine Clothes|XPHB}, Dragonmarked Signet, Tool as indicated on the {@table Dragonmarked Backgrounds|FoEQuickstone} table, 24 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Wandslinger",
+			"source": "FoEQuickstone",
+			"page": 157,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"int",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"int",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|xphb": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"sleight of hand": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"gaming set",
+							"woodcarver's tools"
+						]
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"item": "arcane focus|xphb"
+						},
+						{
+							"item": "gaming set|xphb"
+						},
+						{
+							"item": "pouch|xphb",
+							"quantity": 2
+						},
+						{
+							"item": "traveler's clothes|xphb"
+						},
+						{
+							"value": 1600
+						}
+					],
+					"b": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Constitution, Intelligence, Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XPHB} (Wizard)"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana|XPHB} and {@skill Insight|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "Choose one kind of {@item Gaming Set|XPHB} or {@item Woodcarver's Tools|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Arcane Focus|XPHB}, {@item Gaming Set|XPHB}, {@item Pouch|XPHB|2 Pouches}, {@item Traveler's Clothes|XPHB}, 16 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Magewright",
+			"source": "FoEQuickstone",
+			"page": 157,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"int",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"int",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|xphb": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"insight": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"item": "artisan' tools|xphb"
+						},
+						{
+							"item": "pouch|xphb",
+							"quantity": 2
+						},
+						{
+							"item": "traveler's clothes|xphb"
+						},
+						{
+							"value": 3200
+						}
+					],
+					"b": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Constitution, Intelligence, Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XPHB} (Wizard)"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana|XPHB} and {@skill Insight|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "Choose one kind of {@item Artisan' Tools|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Thieves' Tools|XPHB} (same as above), {@item Pouch|XPHB|2 Pouches}, {@item Traveler's Clothes|XPHB}, 32 GP; or (B) 50 GP"
 						}
 					]
 				}
@@ -1405,6 +1854,34 @@
 			"source": "FoEQuickstone",
 			"entries": [
 				"Your work for your house took advantage of your strength and speed. Were you a mercenary fighting in the Last War? A guardian protecting your family's assets and interests? A laborer moving crates in a warehouse? You're a dragonmarked heir and still have good standing with your family, but you find the freewheeling life of an adventurer to be more compelling than following all the rules and regulations of one of the house guilds."
+			]
+		},
+		{
+			"name": "Dragonmarked Founding",
+			"source": "FoEQuickstone",
+			"entries": [
+				"You possess a dragonmark, but you weren't born into one of the houses. You may know your family history and why your ancestors left their house—or it may have come as a surprise when you manifested your mark. Whatever the details, you have no interest in joining some soulless house guild. Do you hide your mark, hoping to avoid the attention of the houses? Or do you wield its powers proudly, ready to rebuff any house agents that come looking for you?"
+			]
+		},
+		{
+			"name": "Dragonmarked Scion",
+			"source": "FoEQuickstone",
+			"entries": [
+				"You were born into a Dragonmarked House and trained to use your knowledge and wits in the service of your family. You may have worked in sales, engaged in research, or even worked as an engineer or an administrator. You're still a dragonmarked heir and you'll always have a place in your house if you choose it, but for now you'd rather seek your own fortune and find challenges beyond the walls of your house enclave."
+			]
+		},
+		{
+			"name": "Magewright",
+			"source": "FoEQuickstone",
+			"entries": [
+				"Magic is part of everyday life in Eberron. {@spell Prestidigitation|XPHB} is an invaluable cantrip, whether you're a cook using it to heat and flavor food or a chimney sweep using it to wipe away dirt with a gesture. A blacksmith who doesn't know {@spell Mending|PHB} is woefully unprepared. You could be an entertainer using {@homebrew {@spell Minor Illusion|XPHB}|Minor image} and {@spell Silent Image} for your performances, or a courier relying on {@spell Longstrider|XPHB}. Consider the career you once followed, and choose a set of {@item Artisan's Tools|XPHB}, cantrips, and a spell that could help with that work."
+			]
+		},
+		{
+			"name": "Wandslinger",
+			"source": "FoEQuickstone",
+			"entries": [
+				"Bows and blades are tools of the past. Magic is the future, and any capable combatant needs to know how to cast a cantrip. You're quick with a wand and a simple spell. Did you serve in the Last War? Were you a smuggler, or an enforcer in the criminal underworld? Whatever your past, you know that there's always opportunities for someone with steady hands and good aim."
 			]
 		}
 	],
@@ -1589,6 +2066,101 @@
 			],
 			"miscTags": [
 				"TP"
+			]
+		}
+	],
+	"table": [
+		{
+			"type": "table",
+			"name": "Dragonmarked Backgrounds",
+			"caption": "Dragonmarked Backgrounds",
+			"source": "FoEQuickstone",
+			"page": 157,
+			"colLabels": [
+				"Lesser Dragonmark",
+				"Prerequisite",
+				"House",
+				"Tool Proficiency"
+			],
+			"colStyles": [
+				"col- text-",
+				"col- text-",
+				"col- text-",
+				"col- text-"
+			],
+			"rows": [
+				[
+					"Detection",
+					"Khoravar (Half-Elf)",
+					"Medani",
+					"{@i Choose one kind of Gaming Set}"
+				],
+				[
+					"Finding",
+					"Human, Orc, Half-Orc",
+					"Tharashk",
+					"{@i Choose one kind of Gaming Set}"
+				],
+				[
+					"Handling",
+					"Human",
+					"Vadalis",
+					"Leatherworker's Tools"
+				],
+				[
+					"Healing",
+					"Halfling",
+					"Jorasco",
+					"Herbalism Kit"
+				],
+				[
+					"Hospitality",
+					"Halfling",
+					"Ghallanda",
+					"{@i Choose} Brewer's Supplies {@i or} Cook's Utensils"
+				],
+				[
+					"Making",
+					"Human",
+					"Cannith",
+					"{@i Choose one kind of Artisan's Tools}"
+				],
+				[
+					"Passage",
+					"Human",
+					"Orien",
+					"{@i Choose one kind of Gaming Set}"
+				],
+				[
+					"Scribing",
+					"Gnome",
+					"Sivis",
+					"Calligrapher's Supplies"
+				],
+				[
+					"Sentinel",
+					"Human",
+					"Deneith",
+					"{@i Choose one kind of Gaming Set}"
+				],
+				[
+					"Shadow",
+					"Elf",
+					"Phiarlan or Thuranni",
+					"{@i Choose one kind of Artisan's Tools}"
+				],
+				[
+					"Storm",
+					"Khoravar (Half-Elf)",
+					"Lyrandar",
+					"Navigator's Tools"
+				],
+				[
+					"Warding",
+					"Dwarf",
+					"Kundarak",
+					"Thieves' Tools"
+				]
 			]
 		}
 	]
